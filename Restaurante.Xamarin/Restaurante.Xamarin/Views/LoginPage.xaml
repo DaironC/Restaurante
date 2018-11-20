@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Restaurante.Xamarin.Views.LoginPage"
+             Title="Login"
+             BackgroundImage="resta.jpg" WidthRequest="300" HeightRequest="300" >
+
+    <StackLayout Orientation="Vertical" VerticalOptions="Center">
+        
+        <Entry x:Name="Usuario" Placeholder="Ingresar Usuario" PlaceholderColor="Black" TextColor="White"/>
+        <Entry x:Name="Password" Placeholder="Ingresar Contraseña" IsPassword="True" PlaceholderColor="Black" TextColor="Black"/>
+        <Button Text="Ingresar" Clicked="Ingreso" BackgroundColor="#575CC6" />
+    </StackLayout>
+
+</ContentPage>

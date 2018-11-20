@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             x:Class="Restaurante.Xamarin.Views.DetallesPage"
+             Title="Detalles">
+
+
+
+
+    <StackLayout Orientation="Vertical" VerticalOptions="Center">
+
+        <ListView x:Name="listaDetalle" ItemsSource="{Binding Detalle}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout>
+                                <Label Text="Domicilio:"/>
+                                <Label Text="{Binding Domicilio}"/>
+                            </StackLayout>
+                            <StackLayout>
+                                <Label Text="Reservas:"/>
+                                <Label Text="{Binding Reservas}"/>
+                            </StackLayout>
+                            <StackLayout>
+                                <Label Text="Descuentos:"/>
+                                <Label Text="{Binding Descuentos}"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+        <Maps:Map WidthRequest="350"  HeightRequest="300" x:Name="MyMap" IsShowingUser="true" MapType="Street"/>
+    </StackLayout>
+</ContentPage>
