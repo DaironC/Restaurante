@@ -117,22 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Ingresar" xml:space="preserve">
-    <value>Ingresar</value>
+  <data name="Target" xml:space="preserve">
+    <value>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</value>
   </data>
-  <data name="Password" xml:space="preserve">
-    <value>Ingrese Pasword</value>
-  </data>
-  <data name="Restaurantes" xml:space="preserve">
-    <value>Restaurantes</value>
-  </data>
-  <data name="Usuario" xml:space="preserve">
-    <value>Ingrese Usuario</value>
-  </data>
-  <data name="ValidacionPassword" xml:space="preserve">
-    <value>Ingresar password correcta</value>
-  </data>
-  <data name="ValidacionUsuario" xml:space="preserve">
-    <value>Ingresar el nombre de usuario</value>
+  <data name="DefaultSchema" xml:space="preserve">
+    <value>dbo</value>
   </data>
 </root>

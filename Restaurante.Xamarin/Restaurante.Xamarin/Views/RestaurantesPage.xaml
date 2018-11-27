@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Restaurante.Xamarin.Views.RestaurantesPage"
              Title="Restaurantes"
-             BackgroundColor="#f3e0d7">
+             BackgroundColor="#02E2EC">
 
     <ListView x:Name="ListaRestaurantes" HasUnevenRows="True" ItemSelected="Restaurante_Selecionado">
         <ListView.ItemTemplate>

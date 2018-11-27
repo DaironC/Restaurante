@@ -35,7 +35,7 @@ namespace Restaurante.Xamarin.Views
             }
 
             HttpClient cliente = new HttpClient();
-            cliente.BaseAddress = new Uri("http://192.168.50.152");
+            cliente.BaseAddress = new Uri("http://172.18.78.79");
 
             var Usuarios = new Usuarios
             {

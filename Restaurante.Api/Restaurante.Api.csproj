@@ -218,6 +218,14 @@
     <Compile Include="Migrations\201811161656113_ModeloInicial.Designer.cs">
       <DependentUpon>201811161656113_ModeloInicial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811232258119_CampoImagenYubicacion.cs" />
+    <Compile Include="Migrations\201811232258119_CampoImagenYubicacion.Designer.cs">
+      <DependentUpon>201811232258119_CampoImagenYubicacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811232302143_CampoImagenYubicacion2.cs" />
+    <Compile Include="Migrations\201811232302143_CampoImagenYubicacion2.Designer.cs">
+      <DependentUpon>201811232302143_CampoImagenYubicacion2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\InformacionContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -333,6 +341,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201811161656113_ModeloInicial.resx">
       <DependentUpon>201811161656113_ModeloInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811232258119_CampoImagenYubicacion.resx">
+      <DependentUpon>201811232258119_CampoImagenYubicacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811232302143_CampoImagenYubicacion2.resx">
+      <DependentUpon>201811232302143_CampoImagenYubicacion2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

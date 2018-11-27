@@ -61,16 +61,7 @@ namespace Restaurante.Xamarin.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Password.
-        /// </summary>
-        internal static string Contrasena {
-            get {
-                return ResourceManager.GetString("Contrasena", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Enter.
+        ///   Busca una cadena traducida similar a Ingresar.
         /// </summary>
         internal static string Ingresar {
             get {
@@ -79,7 +70,25 @@ namespace Restaurante.Xamarin.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Username.
+        ///   Busca una cadena traducida similar a Ingrese Pasword.
+        /// </summary>
+        internal static string Password {
+            get {
+                return ResourceManager.GetString("Password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Restaurantes.
+        /// </summary>
+        internal static string Restaurantes {
+            get {
+                return ResourceManager.GetString("Restaurantes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Ingrese Usuario.
         /// </summary>
         internal static string Usuario {
             get {
@@ -88,16 +97,16 @@ namespace Restaurante.Xamarin.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter the Password.
+        ///   Busca una cadena traducida similar a Ingresar password correcta.
         /// </summary>
-        internal static string ValidacionContrasena {
+        internal static string ValidacionPassword {
             get {
-                return ResourceManager.GetString("ValidacionContrasena", resourceCulture);
+                return ResourceManager.GetString("ValidacionPassword", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter the User.
+        ///   Busca una cadena traducida similar a Ingresar el nombre de usuario.
         /// </summary>
         internal static string ValidacionUsuario {
             get {

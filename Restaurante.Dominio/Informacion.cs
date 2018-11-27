@@ -29,6 +29,8 @@ namespace Restaurante.Dominio
         [MaxLength(30)]
         public string Direccion { get; set; }
 
+        public string Imagen { get; set; }
+
         public List<Detalle> Detalles  { get; set; }
     }
 }
