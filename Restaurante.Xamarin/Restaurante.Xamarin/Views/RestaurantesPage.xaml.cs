@@ -26,7 +26,7 @@ namespace Restaurante.Xamarin.Views
         private async void CargarRestaurantes()
         {
             HttpClient cliente = new HttpClient();
-            cliente.BaseAddress = new Uri("http://172.18.78.79");
+            cliente.BaseAddress = new Uri("http://192.168.137.1");
 
             var request = await cliente.GetAsync("/Restaurante.Api/api/Informacion");
             if (request.IsSuccessStatusCode)

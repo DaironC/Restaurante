@@ -10,7 +10,7 @@
 
     <StackLayout Orientation="Vertical" VerticalOptions="Center">
 
-        <ListView x:Name="listaDetalle" ItemsSource="{Binding Detalles}" Margin="5">
+        <ListView x:Name="listaDetalle" HasUnevenRows="True" ItemsSource="{Binding Detalles}" Margin="5">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -23,11 +23,11 @@
                                 <Label Text="Reservas:" FontSize="Medium"/>
                                 <Label Text="{Binding Reservas}" FontSize="Medium"/>
                             </StackLayout>
-                            <StackLayout>
+                            <StackLayout Orientation="Horizontal">
                                 <Label Text="Descuentos:" FontSize="Medium"/>
                                 <Label Text="{Binding Descuentos}" FontSize="Medium"/>
                             </StackLayout>
-                            <StackLayout>
+                            <StackLayout Orientation="Horizontal">
                                 <Label Text="Ciudad:" FontSize="Medium"/>
                                 <Label Text="{Binding Ubicacion}" FontSize="Medium"/>
                             </StackLayout>
@@ -36,10 +36,13 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+
+        <Maps:Map HeightRequest="350" x:Name="MyMap" IsShowingUser="true" MapType="Street" />
         
-        <StackLayout>
-            <Maps:Map HeightRequest="300" x:Name="MyMap" IsShowingUser="true" MapType="Street" />
-        </StackLayout>
     </StackLayout>
+    
+   
+        
+
        
 </ContentPage>
